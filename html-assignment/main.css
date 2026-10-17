@@ -1,0 +1,36 @@
+body {
+font-family: Arial, sans-serif; /* Sets the font for the entire body of the document */
+font-size: 18px; /* Sets the font size for the entire body of the document */
+}header, footer {
+background-color: #256516; /* Sets the background color for header and footer */
+}
+.site-title {
+color: #2c3e50; /* Sets the text color for the site title */
+#my-image {
+    box-shadow: 0px 0px 2px 1px black
+}
+/* Assuming your hobby list or its container has an appropriate selector */
+ul.hobbies {
+    list-style-type: square; /* Changes the bullet points to squares */
+}
+
+ul.hobbies li:nth-child(odd) {
+    background-color: #b40c0c; /* Sets background color for odd list items */
+}
+
+/* Remove bullets from unordered lists */ nav ul {
+    list-style-type: none; /* Removes bullet points from the navigation list */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}
+/* Remove underlines, add background and border to links */ nav a {
+    text-decoration: none; /* Removes underline from links */
+    background-color: #0cb428; /* Sets background color for links */
+    color: rgb(138, 159, 24); /* Sets text color for links */
+    padding: 5px 10px; /* Adds padding around the link text */
+    border-radius: 5px; /* Rounds the corners of the link background */
+}
+/*Change backgroubnd color on hover or focus state */ nav a:hover, nav a:focus {
+    background-color: #0cb428; /* Changes background color on hover or focus */
+    color: rgb(237, 54, 8); /* Changes text color on hover or focus */
+}
